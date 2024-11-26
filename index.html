@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="Russian">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>vecher v hatu</title>
+</head>
+<body>
+    <div class="container">
+       <header class="header">
+        <div class="wrapper">
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a href="#contacts" class="menu__link">контакты</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#about-me" class="menu__link">обо мне</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#skills" class="menu__link">навыки</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#code" class="menu__link">пример кода</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#projects" class="menu__link">проекты</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#education" class="menu__link">образование</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+    <main class="main">
+        <section class="main__info">
+            <div class="wrapper">
+                <div class="main__info-inside">
+                    <img src="images/avatar.svg" alt="avatar-pic" class="avatar">
+                    <div class="main__info-text">
+                        <h1 class="name">Скрипцова <br>Анастасия Васильевна</h1>
+                        <hr>
+                        <h2 class="speciality">Инженер-программист-экономист</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-me" id="about-me">
+            <div class="wrapper">
+                <h3 class="title">Обо мне</h3>
+                <hr class="title__line">
+                <p class="about-me__text">
+                    23 года. Незамужем. На сегодняшний день работаю по распределению в Минском городском управлении ФСЗН на должности старшего инспектора. Умею работать с большим объемом информации, выделять главное и объяснять простыми словами. 
+                    <br><br>
+                    Исходя из специфики моей работы, могу выделить свои ключевые навыки:
+                </p>
+                <ul class="about-me__text-list">
+                    <li class="about-me__text-item">ответственность;</li>
+                    <li class="about-me__text-item">быстрая обучаемость;</li>
+                    <li class="about-me__text-item">коммуникабельность.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    </div>
+    <div class="container kitty-back">
+        <div class="wrapper">
+            <div class="info-columns">
+                <section class="skills" id="skills">
+                    <h3 class="title">Навыки</h3>
+                    <hr class="title__line">
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <h4 class="skills__item-name">HTML\CSS</h4>
+                            <div class="skills__item-rating">
+                                <span class="active"></span>
+                                <span class="active"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <h4 class="skills__item-name">JavaScript</h4>
+                            <div class="skills__item-rating">
+                                <span class="active"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <h4 class="skills__item-name">Python</h4>
+                            <div class="skills__item-rating">
+                                <span class="active"></span>
+                                <span class="active"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <h4 class="skills__item-name">SQL</h4>
+                            <div class="skills__item-rating">
+                                <span class="active"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <h4 class="skills__item-name">Git</h4>
+                            <div class="skills__item-rating">
+                                <span class="active"></span>
+                                <span class="active"></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="code-example" id="code">
+                    <h3 class="title">Code Example</h3>
+                    <hr class="title__line">
+                    <code>
+                        let hello = 'Hello World!'
+                    </code> 
+                    <br>
+                    <code>
+                       console.log(hello) 
+                    </code>
+                </section>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="info-columns">
+                <section class="projects" id="projects">
+                    <h3 class="title">Проекты</h3>
+                    <hr class="title__line">
+                    <div class="projects__inner">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/audHGjX4VG8?si=r0iYLCXcnzhBClIl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p class="projects__text">Из выживших проектов - диплом...</p>
+                    </div>
+                </section>
+                <section class="education" id="education">
+                    <h3 class="title">Образование</h3>
+                    <hr class="title__line">
+                    <div class="education__inner">
+                        <p class="time">
+                            2019-2023
+                        </p>
+                        <p class="university">
+                            Белорусский государственный университет информатики и радиоэлектроники
+                        </p>
+                        <p class="faculty">
+                            Инженерно-экономический факультет
+                        </p>
+                        <p class="spec">
+                            Информационные системы и технологии (в экономике)
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="wrapper">
+            <section class="contacts" id="contacts">
+                <h3 class="title">Контакты</h3>
+                <hr class="title__line">
+                <div class="contacts-info">
+                    <ul class="contacts-info__list">
+                        <li class="contacts-info__item with-link">
+                            <a href="https://t.me/pepparonin" class="telega-link">
+                               <img class="telega-icon" src="images/telega.svg" alt="telegram icon"> 
+                            </a>
+                            8 (029) 125-34-80
+                        </li>
+                        <li class="contacts-info__item">skriptonast@gmail.com</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

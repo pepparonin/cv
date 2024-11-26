@@ -1,0 +1,336 @@
+/* RESET Start */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* RESET End */
+
+html{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    color: #151618;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background: linear-gradient(
+        180deg, 
+       #001e81,
+       #237ef4
+        
+      );
+      background-blend-mode: soft-light;
+}
+
+.wrapper{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.25);
+    margin: 0px auto 70px auto;
+}
+
+.container:first-child{
+    margin: 30px auto 70px auto;
+}
+
+
+.menu{
+    padding-top: 40px;
+    margin-bottom: 75px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__link{
+    text-decoration: underline;
+}
+
+.main__info-inside{
+    display: flex;
+    justify-content: space-between;
+    line-height: 1;
+}
+
+.main__info-text{
+    margin-top: 55px;
+}
+
+.name{
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.speciality{
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+
+hr{
+    border: none;
+    background-color: #000;
+    color: #000; 
+    height: 3px;
+}
+
+.about-me{
+    margin-top: 45px;
+}
+
+.about-me__text {
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 30px;
+    line-height: 1;
+}
+
+.title__line{
+    max-width: 460px;
+    margin: 0;
+}
+
+.about-me__text-list{
+    padding: 0px 0 70px 0;
+    list-style: circle;
+}
+
+.about-me__text-item{
+    margin-left: 40px;
+}
+
+.info-columns{
+    display: grid;
+    grid-template-columns: repeat(2, 580px);
+    gap: 80px;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.kitty-back{
+    background-image: url(images/kitty.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.skills{
+    display: inline-block;
+}
+
+.skills__list{
+    margin-top: 20px;
+}
+
+.skills__item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills__item-name{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.skills__item-rating span{
+    content: url(images/gray.svg);
+}
+
+.skills__item-rating > span.active{
+    content: url(images/blue.svg);
+}
+
+.info{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects{
+    max-width: 463px;
+}
+
+.projects__inner{
+    margin-top: 24px;
+}
+
+.projects__text{
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.education{
+    max-width: 463px;
+}
+
+.education__inner{
+    margin-top: 24px;
+}
+
+.time{
+    font-weight: 600;
+}
+
+.university, 
+.faculty{
+    margin-bottom: 10px;
+}
+
+.faculty,
+.spec{
+    font-size: 22px;
+    font-style: italic;
+}
+
+.footer__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts{
+    padding: 60px 0 70px 0;
+}
+
+.contacts-info{
+    margin-top: 24px;
+}
+
+.contacts-info__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.telega-icon{
+    max-width: 35px;
+}
+
+.telega-icon:hover{
+ opacity: 0.3;
+}
+
+.contacts-info__item:first-child{
+    display: flex;
+}
